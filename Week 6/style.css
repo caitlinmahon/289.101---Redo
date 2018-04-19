@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+div {
+    outline:1px solid lime;
+}
+
+body {
+    background-color: white;
+    margin:0 0 0 0;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    height: 110px;
+}
+
+.nav {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 1.4rem;
+    float: left;
+    font-family: 'Lato', sans-serif;
+}
+
+.links {
+    margin-top: 45px;
+    font-size: 0.75rem;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    color: #494e62;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner {
+    background-color: white;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 1280px;
+    height: 545px;
+    width: 100%;
+    
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    height: 190px;
+    
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-left: 300px;
+}
+
+.navbar {
+    height: 100px;
+    max-width: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.aboutme {
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 1.0rem;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    height: 250px;
+}
+
+.contact1 {
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 1.0rem;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    height: 250px;
+    width: 1525px;
+}
